@@ -13,7 +13,7 @@
 
 ###  动态界面
 ![动态详情](https://test-1308585220.cos.ap-shanghai.myqcloud.com/%E5%8A%A8%E6%80%81%E8%AF%A6%E6%83%85.png)
-
+![发表动态](https://test-1308585220.cos.ap-shanghai.myqcloud.com/%E5%8F%91%E8%A1%A8%E5%8A%A8%E6%80%81.png)
 
 ###  个人空间
 ![管理动态](https://test-1308585220.cos.ap-shanghai.myqcloud.com/%E4%B8%AA%E4%BA%BA%E7%A9%BA%E9%97%B4.png)
