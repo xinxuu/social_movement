@@ -1,0 +1,47 @@
+.space {
+    display: flex;
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+.space .left {
+    flex: 1;
+    height: 100%;
+}
+
+.space .middle {
+    flex: 6;
+    
+    height: 100%;
+}
+
+.space .middle .landscape {
+    width: 100%;
+    height: 300px;
+    border-left: 3px solid black;
+    /* border-right: 2px solid black; */
+}
+
+.space .middle .sheader {
+    float: left;
+    position: absolute;
+    left: 220px;
+    top: 270px;
+    display: inline;
+    margin-bottom: 10px;
+}
+
+.space .middle .sheader img{
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.space .right {
+    flex: 1;
+    height: 100%;
+}
+
+.space .middle .content {
+    min-height: 408px;
+}

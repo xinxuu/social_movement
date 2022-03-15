@@ -1,0 +1,10 @@
+.spot {
+    -moz-column-count: 5;
+    -webkit-column-count: 5;
+    column-count: 5;
+    -moz-column-gap: 10px;
+    -webkit-column-gap: 10px;
+    column-gap: 10px;
+    padding: 10px;
+    background-color:  whitesmoke;
+}

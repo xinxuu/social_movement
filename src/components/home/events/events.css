@@ -1,0 +1,34 @@
+
+.eventsList {
+    margin-top: 20px;
+    
+    width: 100%;
+    background-color: white;
+
+}
+
+.eventsList .Eheader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.eventsList .Eheader span{
+    padding: 0px 8px;
+    font-size: 16px;
+}
+
+.eventsList .Eheader .selected {
+    color: rgb(0, 119, 255)
+}
+
+.eventsList .Eheader .select {
+    color: hsl(0, 0%, 55%);
+}
+
+.eventsList .Eheader .select:hover {
+    color: rgb(0, 119, 255)
+}

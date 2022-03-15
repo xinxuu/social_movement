@@ -1,0 +1,51 @@
+.register {
+    width: 100%;
+    /* width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid gainsboro;
+    padding: 50px 0px; */
+}
+
+.register .register_avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.register .register_avatar img {
+    height: 60px;
+}
+
+.register .delete{
+    
+    position: relative;
+    bottom: 120px;
+    left: 95px;
+    margin: 0px;
+}
+
+/* .register .register_phone input {
+    height: 30px;
+    width: 185px;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+} */
+
+#register_phone:focus {
+    border: 5px solid green;
+    height: 30px;
+    width: 185px;
+    
+}
+
+.avator {
+    margin: 0px;
+    height: 150px;
+}
+
+.register_login {
+    cursor: pointer;
+    color: brown;
+}

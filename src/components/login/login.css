@@ -1,0 +1,23 @@
+.login {
+    width: 100%;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    
+}
+
+.tab {
+    width: 50%;
+}
+
+.yanzhenma {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login_register {
+    cursor: pointer;
+    color: brown;
+}

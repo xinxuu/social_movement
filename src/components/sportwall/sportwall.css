@@ -1,0 +1,77 @@
+.sportwall {
+    background-color:  whitesmoke;
+}
+
+.sportwall .sportwall_header {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sportwall .sportwall_header .classify {
+    width: 25%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.sportwall .sportwall_header .classify .classify_item {
+    font-size: 20px;
+}
+
+.sportwall .sportwall_header .classify .classify_item_selected {
+    font-size: 20px;
+    color: rgb(0, 225, 255);
+}
+
+.sportwall .sportwall_header .classify .classify_item:hover {
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(0, 225, 255);
+}
+
+.sportwall .bread {
+    width: 100%;
+}
+
+.sportwall .button {
+    display: flex;
+    justify-content: end;
+}
+
+.shabi {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.shabi img {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.swall {
+    -moz-column-count: 6;
+    -webkit-column-count: 6;
+    column-count: 6;
+    -moz-column-gap: 10px;
+    -webkit-column-gap: 10px;
+    column-gap: 10px;
+    padding: 10px;
+    background-color:  whitesmoke;
+}
+
+.item {
+    break-inside: avoid-column;
+    -webkit-column-break-inside: avoid;
+}
+
+.item img {
+    width: 100%;
+    overflow: hidden;
+}

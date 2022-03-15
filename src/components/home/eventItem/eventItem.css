@@ -1,0 +1,44 @@
+
+.eventItem {
+    margin: 10px 20px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 10px;
+}
+
+.eventItem:last-child {
+    margin: 10px 20px;
+    border-bottom: none
+}
+
+.eventItem .eHeader {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.eventItem .eHeader span {
+    font-size: 13px;
+    color: hsl(0, 0%, 55%);
+}
+
+.eventItem .eHeader span:first-child {
+    font-size: 16px;
+    padding-bottom: 2px;
+    color: #000;
+}
+
+.eventItem p{
+    color: #000;
+}
+
+.eventItem .bottom {
+    width: 20%;
+    color: #000;
+}
+
+.eventItem .bottom img{
+    height: 20px;
+    width: 20px;
+}

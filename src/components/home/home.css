@@ -1,0 +1,81 @@
+
+.home {
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.home .classify {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+    padding: 0px 300px;
+    border-bottom: 1px solid whitesmoke;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.home .classify ul {
+    display: flex;
+    margin: 0px;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home .classify ul li {
+    cursor: pointer;
+    font-size: medium;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.home .classify .select {
+    color: hsl(0, 0%, 55%);
+}
+
+.home .classify .select:hover {
+    color: rgb(0, 119, 255)
+}
+
+.home .classify .selected {
+    color: rgb(0, 119, 255)
+}
+
+.home .img {
+    height: 300px;
+    border-bottom: 10 solid black;
+}
+
+.home .container {
+  overflow: hidden;
+  padding: 0px 600px 0px 300px;
+  background-color: whitesmoke;
+}
+
+.home .container>div {
+  float: left;
+}
+  
+.home .container .middle {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.home .container .left {
+  width: 300px;
+  background-color: whitesmoke;
+  margin-left: -100%;
+  position: relative;
+  right: 300px;
+}
+
+.home .container .right {
+  width: 600px;
+  background-color: whitesmoke;
+  margin-left: -600px;
+  position: relative;
+  left: 600px;
+  padding: 20px;
+}
+

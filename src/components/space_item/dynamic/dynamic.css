@@ -1,0 +1,28 @@
+
+.wall {
+    -moz-column-count: 5;
+    -webkit-column-count: 5;
+    column-count: 5;
+    -moz-column-gap: 40px;
+    -webkit-column-gap: 40px;      
+    column-gap: 40px;
+    padding: 20px;
+    background-color:  whitesmoke;
+}
+
+.dynamic .button {
+    margin-top: 5px;
+    display: flex;
+    justify-content: end;
+}
+
+.item {
+
+    break-inside: avoid-column;
+    -webkit-column-break-inside: avoid;
+}
+
+.item img {
+    width: 100%;
+    overflow: hidden;
+}

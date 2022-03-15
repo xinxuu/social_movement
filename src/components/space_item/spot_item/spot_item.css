@@ -1,0 +1,23 @@
+
+.spot_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.spot_item .user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.spot_item .user img {
+    width: 60px;
+    margin-right: 15px;
+}
+
+.spot_item .user text {
+    font-size: 20px;
+}

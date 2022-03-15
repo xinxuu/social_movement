@@ -1,0 +1,179 @@
+
+/* .eventDetail {
+  padding-top: 20px;
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+
+.eventDetail .middle {
+
+  border: 1px solid black;
+} */
+/* 圣杯布局 */
+.eventDetail {
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.eventDetail>div {
+  float: left;
+}
+
+.eventDetail .middle {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.eventDetail .left {
+  width: 300px;
+  background-color: whitesmoke;
+  margin-left: -100%;
+  position: relative;
+  right: 300px;
+}
+
+.eventDetail .right {
+  width: 510px;
+  background-color: whitesmoke;
+  margin-left: -510px;
+  position: relative;
+  left: 510px;
+}
+
+.eventDetail .event {
+  padding: 30px;
+  background-color: white;
+  
+}
+
+.eventDetail .people {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+
+}
+
+.eventDetail .people .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eventDetail .people img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.eventDetail .people .info span:first-child {
+  margin-right: 5px;
+}
+
+.eventDetail .content p {
+  white-space: pre-wrap;
+  font-size: 20px;
+}
+
+.eventDetail .register {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.eventDetail .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eventDetail .middle .bottom .deadLine {
+  width: 50%;
+  color: hsl(0, 0%, 55%);
+}
+
+.eventDetail .register .span {
+  margin-right: 10px;
+}
+
+.eventDetail .comment {
+  margin-top: 20px;
+  padding: 20px 30px;
+  background-color: white;
+}
+ 
+.eventDetail .publish {
+  padding-top: 10px;
+  display: flex;
+  
+}
+
+.eventDetail .middle .publish img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+
+.eventDetail .middle .right img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+} 
+
+.eventDetail {
+  padding: 20px 510px 0px 300px;
+  min-width: 304px;
+  background-color: whitesmoke;
+  height: 100%;
+}
+
+.right .user {
+  background-color: white;
+  width: 55%;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.right .user .person {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid hsl(0, 0%, 80%);
+}
+
+.right .user .person img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.right .user .name{
+  color: hsl(0, 0%, 55%);
+}
+
+.right .user .honor {
+  padding-top: 15px;
+}
+
+.right .user ul {
+  padding: 0px;
+}
+
+.right .user ul li {
+  list-style: none;
+  padding-bottom: 3px;
+}
+
+.right .user .honor img {
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+
+.eventDetail .showComments {
+  background-color: white;
+}
