@@ -1,8 +1,23 @@
 # 项目介绍
 有时候想户外运动却没有一起运动的人，该项目提供一个平台能够找团体一起运动。也可以上传自己的运动动态。
 
-![de](https://test-1308585220.cos.ap-shanghai.myqcloud.com/%E5%8A%A8%E6%80%81.png)
+###  登录注册
+![登录](https://test-1308585220.cos.ap-shanghai.myqcloud.com/%E7%99%BB%E5%BD%95.png)
+![注册](https://test-1308585220.cos.ap-shanghai.myqcloud.com/%E6%B3%A8%E5%86%8C.png)
 
+###  组队界面
+![组队](https://test-1308585220.cos.ap-shanghai.myqcloud.com/%E7%BB%84%E9%98%9F.png)
+![发起组队](https://test-1308585220.cos.ap-shanghai.myqcloud.com/%E5%8F%91%E8%B5%B7%E6%B4%BB%E5%8A%A8.png)
+###  组队详情
+![组队详情](https://test-1308585220.cos.ap-shanghai.myqcloud.com/%E7%BB%84%E9%98%9F%E8%AF%A6%E6%83%85.png)
+
+###  动态界面
+![动态详情](https://test-1308585220.cos.ap-shanghai.myqcloud.com/%E5%8A%A8%E6%80%81%E8%AF%A6%E6%83%85.png)
+![发表动态](https://test-1308585220.cos.ap-shanghai.myqcloud.com/%E5%8F%91%E8%A1%A8%E5%8A%A8%E6%80%81.png)
+
+###  个人空间
+![管理动态](https://test-1308585220.cos.ap-shanghai.myqcloud.com/%E4%B8%AA%E4%BA%BA%E7%A9%BA%E9%97%B4.png)
+![关注](https://test-1308585220.cos.ap-shanghai.myqcloud.com/%E5%85%B3%E6%B3%A8.png)
 
 
 # Getting Started with Create React App
