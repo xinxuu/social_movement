@@ -1,3 +1,10 @@
+# 项目介绍
+有时候想户外运动却没有一起运动的人，该项目提供一个平台能够找团体一起运动。也可以上传自己的运动动态。
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
